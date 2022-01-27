@@ -1,0 +1,40 @@
+nav{
+    height: 50px;
+    border: 1 px solid #dfdfdf;
+
+}
+
+.div-header{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: indianred;
+}
+
+.div-svg{
+    height: 30px;
+    width: 30px;
+    padding: 0 20px;
+}
+
+.button-header{
+    height: 30px; 
+    background-color: inherit;   
+}
+
+.button-header:hover{
+    font-style: italic;
+    text-decoration: underline;   
+    cursor: pointer;
+    background-color: lightblue;
+    color: black;
+}
+
+.active{
+    border-bottom: 2px solid blue;
+}
